@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>PLG_SYS_TPL2CLASS_XML_NAME</name>
+	<author>Roberto Segura - Digital Disseny, S.L.</author>
+	<creationDate>April 2012</creationDate>
+	<copyright>Copyright (C) 2012 Digital Disseny, S.L. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>roberto@digitaldisseny.com</authorEmail>
+	<authorUrl>www.digitaldisseny.com</authorUrl>
+	<version>0.1</version>
+	<description>PLG_SYS_TPL2CLASS_NAME_XML_DESC</description>
+	<files>
+		<folder>css</folder>
+		<folder>language</folder>
+		<filename plugin="tpl2class">tpl2class.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<!-- en-GB -->
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_tpl2class.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_tpl2class.sys.ini</language>
+		<!-- es-ES -->
+		<language tag="es-ES">language/es-ES/es-ES.plg_system_tpl2class.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.plg_system_tpl2class.sys.ini</language>
+	</languages>
+</extension>
