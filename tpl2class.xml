@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYS_TPL2CLASS_XML_NAME</name>
-	<author>Roberto Segura - Digital Disseny, S.L.</author>
+	<author>Digital Disseny, S.L.</author>
 	<creationDate>April 2012</creationDate>
 	<copyright>Copyright (C) 2012 Digital Disseny, S.L. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
