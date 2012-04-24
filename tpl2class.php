@@ -70,7 +70,7 @@ class plgSystemTpl2class extends JPlugin {
         $body = JResponse::getBody();
 
         // JS load
-        $jsCode = $this->_genJs();
+        $jsCode = $this->_genJsCode();
         if (!empty($jsCode)) {
             // js loads just after closing body tag
             $body = str_replace ("</body>", $jsCode . "\n</body>", $body);
